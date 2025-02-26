@@ -94,14 +94,14 @@ const InputField: React.FC = () => {
     const files = event.target.files
     if (files && files.length > 0) {
       toast.success("Resume uploaded successfully!", {
-        position: "top-right", // Adjust position as needed
-        autoClose: 5000, // 5 seconds
+        position: "top-right",
+        autoClose: 5000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
         draggable: true,
         progress: undefined,
-        theme: "dark", // Or "dark"
+        theme: "dark",
       });
     }
   }
